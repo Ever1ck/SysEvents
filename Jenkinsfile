@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Ever1ck/SysEvents.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/Ever1ck/SysEvents.git'
                 }
             }
         }
